@@ -14,11 +14,15 @@ class ScreenA extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/b');
+            },
             child: Text('Go to ScreenB'),
           ),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/c');
+            },
             child: Text('Go to ScreenC'),
           ),
         ],
