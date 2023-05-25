@@ -28,6 +28,7 @@ class MyPage extends StatelessWidget {
       ),
       body: Center(
           child: ElevatedButton(
+        // 어떠한 입체감도 없이 그려지는 버튼
         child: Text(
           'Show me',
           style: TextStyle(color: Colors.white),
