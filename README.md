@@ -34,3 +34,10 @@
  - Fluttertoast.showToast()
   
    <img src="https://github.com/yegri/fluttter_study/assets/113401733/51428107-37db-4690-8b1b-d36a96c845eb" height="500">
+
+5. Navigator
+ - Route : 스마트폰에서 보여지는 하나의 페이지
+ - onPressed : () { Navigator.push(context, MaterialPageRoute(builder : (context) { return SecondPage(); }
+ - onPressed : () { Navigator.pop(context2, MaterialPageRoute(builder : (context2) { return FirstPage(); }
+ 
+   <img src="https://github.com/yegri/fluttter_study/assets/113401733/14845853-86db-47b3-8dca-7bd089a72e13" height="500">
