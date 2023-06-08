@@ -65,3 +65,8 @@
  
   <img src="https://github.com/yegri/fluttter_study/assets/113401733/5602d954-a365-417f-84c0-4374b57d8a26" height="500">
  
+8. onBoarding 페이지
+ - introduction_screen 사용
+ - pageViewModel
+ 
+  <img src="https://github.com/yegri/fluttter_study/assets/113401733/94034971-ada2-4cba-b21c-f23e1cc1aaa0" height="500">
