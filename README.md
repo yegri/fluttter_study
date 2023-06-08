@@ -41,3 +41,27 @@
  - onPressed : () { Navigator.pop(context2, MaterialPageRoute(builder : (context2) { return FirstPage(); }
  
    <img src="https://github.com/yegri/fluttter_study/assets/113401733/14845853-86db-47b3-8dca-7bd089a72e13" height="500">
+   
+6. multi_navigator
+ - Widget build(BuildContext context) {
+    return MaterialApp(
+      initialRoute : '/', routes : { 
+        '/' : (context) => ScreenA(),
+        '/b' : (context) => ScreenB(),
+        '/c' : (context) => ScreenC()
+      }
+    );
+   }
+ }
+
+- ElevatedButton{
+   onPressed : () {
+     Navigator.pushNamed(context, '/b');
+   }),
+    onPressed : () {
+     Navigator.pushNamed(context, '/c');
+   }),
+ }
+ 
+  <img src="https://github.com/yegri/fluttter_study/assets/113401733/5602d954-a365-417f-84c0-4374b57d8a26" height="500">
+ 
